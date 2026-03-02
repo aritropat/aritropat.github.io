@@ -1,0 +1,42 @@
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.bio {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.research-interests {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.education {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.cv-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cv-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .bio, .research-interests, .education {
+        font-size: 16px;
+    }
+}
